@@ -24,7 +24,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/eraser282",
+  github: "https://github.com/joelcolaco",
   linkedin: "https://www.linkedin.com/in/joel-colaco/",
   gmail: "joel.colaco@gmail.com",
   twitter: "https://twitter.com/hotshotz18",
@@ -137,23 +137,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "BITS Pilani",
+      logo: require("./assets/images/BITS_Pilani-Logo.svg"),
+      subHeader: "(BE) Computer Science",
+      duration: "September 2006 - May 2010"
     }
   ]
 };
@@ -185,10 +172,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Senior Software Lead",
+      company: "Brock Solutions",
+      companylogo: require("./assets/images/brocklogo.jpg"),
+      date: "May 2014 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -196,18 +183,22 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Integration Developer",
+      company: "Doxim",
+      companylogo: require("./assets/images/doxim.png"),
+      date: "Aug 2011 – May 2014",
+      desc: "Expanded core product (OpenAdvantage) functionality written in Java to allow end users to build workflows and reports modeled arround their business processes. Worked with various SOAP/REST based web APIs to add integrations with the core product (DocuSign, Equifax, Broadridge, Fidelity)"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "QA Developer",
+      company: "Arius Software",
+      companylogo: require("./assets/images/defaultWorkLogo.png"),
+      date: "Oct 2010 – Aug 2011",
+      descBullets: [
+        "Developing automated test cases",
+        "Identifying test scenarios for new software features",
+        "Providing feedback on technical specifications with a focus on testability, quality, and customer impact."
+      ]
     }
   ]
 };
@@ -250,7 +241,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -308,7 +299,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -371,15 +362,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Want to discuss a new project or just say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "",
+  email_address: "joel.colaco@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "hotshotz18", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
