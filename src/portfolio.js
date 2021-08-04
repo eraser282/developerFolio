@@ -45,7 +45,7 @@ const skillsSection = {
     emoji("⚡ Basic Website creation using Wordpress, Wix, Webflow etc"),
     emoji("⚡ Custom Website creation with payment and store front integrations"),
     emoji("⚡ API design, architecture, implementation and integration"),
-    emoji("⚡ Crossplatform application development with .Net Core"),
+    emoji("⚡ Cross-platform application development with .Net Core"),
     emoji("⚡ Front end / User Interfaces development for your web and mobile applications"),
     emoji("⚡ Cloud Native solution design and implementation with Azure / AWS"),
     emoji("⚡ CI/CD Pipeline creation using Azure DevOps, Jenkins or any other CI tool"),
@@ -278,7 +278,7 @@ const achievementSection = {
     {
       title: "ICAgile Certified Professional",
       subtitle:
-        "Completed Certifcation from ICAgile",
+        "Completed Certification from ICAgile",
       image: require("./assets/images/icagile.jpg"),
       footerLink: [
         {
