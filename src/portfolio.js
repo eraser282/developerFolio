@@ -42,13 +42,14 @@ const skillsSection = {
   title: "Tech Stack",
   subTitle: "TECHNOLOGIES I'VE WORKED WITH",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Basic Website creation using Wordpress, Wix, Webflow etc"),
+    emoji("⚡ Custom Website creation with payment and store front integrations"),
+    emoji("⚡ API design, architecture, implementation and integration"),
+    emoji("⚡ Crossplatform application development with .Net Core"),
+    emoji("⚡ Front end / User Interfaces development for your web and mobile applications"),
+    emoji("⚡ Cloud Native solution design and implementation with Azure / AWS"),
+    emoji("⚡ CI/CD Pipeline creation using Azure DevOps, Jenkins or any other CI tool"),
+    emoji("⚡ Bot development integrated with various platforms (Discord, Telegram, etc)"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -151,16 +152,32 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Leadership",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Communication",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Solution Design",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Training & Mentoring",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Agile Project Management",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Backend", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -176,10 +193,10 @@ const workExperiences = {
       company: "Brock Solutions",
       companylogo: require("./assets/images/Logo_BrockSolutions_Sharepoint.png"),
       date: "May 2014 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Currently managing a team of developers to deliver high quality features",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Building cloud solutions leveraging Azure",
+        "Supporting legacy Windows/Web forms applications"
       ]
     },
     {
@@ -187,18 +204,23 @@ const workExperiences = {
       company: "Doxim",
       companylogo: require("./assets/images/doxim.png"),
       date: "Aug 2011 – May 2014",
-      desc: "Expanded core product (OpenAdvantage) functionality written in Java to allow end users to build workflows and reports modeled arround their business processes. Worked with various SOAP/REST based web APIs to add integrations with the core product (DocuSign, Equifax, Broadridge, Fidelity)"
+      desc: "Worked with the core product team to support integrations with other products",
+      descBullets: [
+        "Worked with various SOAP/REST based web APIs to add integrations with the core product (DocuSign, Equifax, Broadridge, Fidelity)"
+      ] 
     },
     {
       role: "QA Developer",
       company: "Arius Software",
       companylogo: require("./assets/images/defaultWorkLogo.png"),
       date: "Oct 2010 – Aug 2011",
+      desc: [
+        "Worked with the QA team to ensure high quality code is being deployed to customers"
+      ],
       descBullets: [
-        "Developing automated test cases",
-        "Identifying test scenarios for new software features",
-        "Providing feedback on technical specifications with a focus on testability, quality, and customer impact."
-      ]
+        "Developed and Maintained a testing framework written in python to leverage automated testing.",
+        "Built and maintained CI/CD pipelines using Jenkins"
+      ]      
     }
   ]
 };
@@ -250,56 +272,23 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Awards and other Cool Stuff I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "ICAgile Certified Professional",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Completed Certifcation from ICAgile",
+      image: require("./assets/images/icagile.jpg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
