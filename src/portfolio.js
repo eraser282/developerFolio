@@ -174,7 +174,7 @@ const workExperiences = {
     {
       role: "Senior Software Lead",
       company: "Brock Solutions",
-      companylogo: require("./assets/images/brocklogo.jpg"),
+      companylogo: require("./assets/images/Logo_BrockSolutions_Sharepoint.png"),
       date: "May 2014 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
