@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications using C# / .NET / React / Xamarin and various other libraries and frameworks."
   ),
-  resumeLink:
-    "https://resume.io/r/lQSE0lX42",
+  resumeLink: "https://resume.io/r/lQSE0lX42",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -43,13 +42,23 @@ const skillsSection = {
   subTitle: "TECHNOLOGIES I'VE WORKED WITH",
   skills: [
     emoji("⚡ Basic Website creation using Wordpress, Wix, Webflow etc"),
-    emoji("⚡ Custom Website creation with payment and store front integrations"),
+    emoji(
+      "⚡ Custom Website creation with payment and store front integrations"
+    ),
     emoji("⚡ API design, architecture, implementation and integration"),
     emoji("⚡ Cross-platform application development with .Net Core"),
-    emoji("⚡ Front end / User Interfaces development for your web and mobile applications"),
-    emoji("⚡ Cloud Native solution design and implementation with Azure / AWS"),
-    emoji("⚡ CI/CD Pipeline creation using Azure DevOps, Jenkins or any other CI tool"),
-    emoji("⚡ Bot development integrated with various platforms (Discord, Telegram, etc)"),
+    emoji(
+      "⚡ Front end / User Interfaces development for your web and mobile applications"
+    ),
+    emoji(
+      "⚡ Cloud Native solution design and implementation with Azure / AWS"
+    ),
+    emoji(
+      "⚡ CI/CD Pipeline creation using Azure DevOps, Jenkins or any other CI tool"
+    ),
+    emoji(
+      "⚡ Bot development integrated with various platforms (Discord, Telegram, etc)"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -59,7 +68,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "C#",
       fontAwesomeClassname: "fas fa-hashtag"
-    },       
+    },
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
@@ -67,11 +76,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },    
+    },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
-    },   
+    },
     {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
@@ -127,7 +136,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
-    }  
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -207,7 +216,7 @@ const workExperiences = {
       desc: "Worked with the core product team to support integrations with other products",
       descBullets: [
         "Worked with various SOAP/REST based web APIs to add integrations with the core product (DocuSign, Equifax, Broadridge, Fidelity)"
-      ] 
+      ]
     },
     {
       role: "QA Developer",
@@ -220,7 +229,7 @@ const workExperiences = {
       descBullets: [
         "Developed and Maintained a testing framework written in python to leverage automated testing.",
         "Built and maintained CI/CD pipelines using Jenkins"
-      ]      
+      ]
     }
   ]
 };
@@ -277,8 +286,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "ICAgile Certified Professional",
-      subtitle:
-        "Completed Certification from ICAgile",
+      subtitle: "Completed Certification from ICAgile",
       image: require("./assets/images/icagile.jpg"),
       footerLink: [
         {
