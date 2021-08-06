@@ -210,7 +210,7 @@ const workExperiences = {
     },
     {
       role: "Integration Developer",
-      company: "Doxim",
+      company: "Doxim Inc",
       companylogo: require("./assets/images/doxim.png"),
       date: "Aug 2011 – May 2014",
       desc: "Worked with the core product team to support integrations with other products",
