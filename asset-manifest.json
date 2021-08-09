@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.79b2f286.chunk.css",
+    "main.css": "/static/css/main.1a183b24.chunk.css",
     "main.js": "/static/js/main.48a10813.chunk.js",
     "main.js.map": "/static/js/main.48a10813.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3107c954.js",
@@ -14,14 +14,14 @@
     "static/js/4.a1db35f6.chunk.js": "/static/js/4.a1db35f6.chunk.js",
     "static/js/4.a1db35f6.chunk.js.map": "/static/js/4.a1db35f6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6a8b767748caf47e11cad1058d108e72.js": "/precache-manifest.6a8b767748caf47e11cad1058d108e72.js",
+    "precache-manifest.28543b9d52efad7ea026ce4342026163.js": "/precache-manifest.28543b9d52efad7ea026ce4342026163.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.25727338.chunk.css.map": "/static/css/3.25727338.chunk.css.map",
     "static/css/4.a8329f31.chunk.css.map": "/static/css/4.a8329f31.chunk.css.map",
-    "static/css/main.79b2f286.chunk.css.map": "/static/css/main.79b2f286.chunk.css.map",
+    "static/css/main.1a183b24.chunk.css.map": "/static/css/main.1a183b24.chunk.css.map",
     "static/js/2.7cdc3857.chunk.js.LICENSE.txt": "/static/js/2.7cdc3857.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Notograph.4346fb74.ttf",
     "static/media/BITS_Pilani-Logo.svg": "/static/media/BITS_Pilani-Logo.8ee22563.svg",
+    "static/media/index.css": "/static/media/Notograph.4346fb74.ttf",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.3107c954.js",
     "static/js/2.7cdc3857.chunk.js",
-    "static/css/main.79b2f286.chunk.css",
+    "static/css/main.1a183b24.chunk.css",
     "static/js/main.48a10813.chunk.js"
   ]
 }
