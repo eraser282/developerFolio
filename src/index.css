@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina3.woff") format("woff");
-  font-display: swap;
-}
-@font-face {
   font-family: "Notograph";
   font-style: normal;
   font-weight: normal;
