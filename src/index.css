@@ -2,8 +2,7 @@
   font-family: "Notograph";
   font-style: normal;
   font-weight: normal;
-  src: local("Notograph"),
-    url("./assets/fonts/Notograph.ttf") format("woff");
+  src: local("Notograph"), url("./assets/fonts/Notograph.ttf") format("woff");
   font-display: swap;
 }
 @font-face {
