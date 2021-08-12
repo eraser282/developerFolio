@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.1a183b24.chunk.css",
-    "main.js": "/static/js/main.48a10813.chunk.js",
-    "main.js.map": "/static/js/main.48a10813.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3107c954.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3107c954.js.map",
-    "static/js/2.7cdc3857.chunk.js": "/static/js/2.7cdc3857.chunk.js",
-    "static/js/2.7cdc3857.chunk.js.map": "/static/js/2.7cdc3857.chunk.js.map",
+    "main.js": "/static/js/main.e724b585.chunk.js",
+    "main.js.map": "/static/js/main.e724b585.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88275c0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88275c0b.js.map",
+    "static/js/2.6729846c.chunk.js": "/static/js/2.6729846c.chunk.js",
+    "static/js/2.6729846c.chunk.js.map": "/static/js/2.6729846c.chunk.js.map",
     "static/css/3.25727338.chunk.css": "/static/css/3.25727338.chunk.css",
-    "static/js/3.a1e28958.chunk.js": "/static/js/3.a1e28958.chunk.js",
-    "static/js/3.a1e28958.chunk.js.map": "/static/js/3.a1e28958.chunk.js.map",
+    "static/js/3.42f23a6c.chunk.js": "/static/js/3.42f23a6c.chunk.js",
+    "static/js/3.42f23a6c.chunk.js.map": "/static/js/3.42f23a6c.chunk.js.map",
     "static/css/4.a8329f31.chunk.css": "/static/css/4.a8329f31.chunk.css",
-    "static/js/4.a1db35f6.chunk.js": "/static/js/4.a1db35f6.chunk.js",
-    "static/js/4.a1db35f6.chunk.js.map": "/static/js/4.a1db35f6.chunk.js.map",
+    "static/js/4.4ad2b1c5.chunk.js": "/static/js/4.4ad2b1c5.chunk.js",
+    "static/js/4.4ad2b1c5.chunk.js.map": "/static/js/4.4ad2b1c5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.464e00bad6448cb427dc3c0caaec104b.js": "/precache-manifest.464e00bad6448cb427dc3c0caaec104b.js",
+    "precache-manifest.60d2e2f3ea108bf8d2e6ebf71206da23.js": "/precache-manifest.60d2e2f3ea108bf8d2e6ebf71206da23.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.25727338.chunk.css.map": "/static/css/3.25727338.chunk.css.map",
     "static/css/4.a8329f31.chunk.css.map": "/static/css/4.a8329f31.chunk.css.map",
     "static/css/main.1a183b24.chunk.css.map": "/static/css/main.1a183b24.chunk.css.map",
-    "static/js/2.7cdc3857.chunk.js.LICENSE.txt": "/static/js/2.7cdc3857.chunk.js.LICENSE.txt",
+    "static/js/2.6729846c.chunk.js.LICENSE.txt": "/static/js/2.6729846c.chunk.js.LICENSE.txt",
     "static/media/BITS_Pilani-Logo.svg": "/static/media/BITS_Pilani-Logo.8ee22563.svg",
     "static/media/index.css": "/static/media/Notograph.4346fb74.ttf",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
@@ -31,9 +31,9 @@
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3107c954.js",
-    "static/js/2.7cdc3857.chunk.js",
+    "static/js/runtime-main.88275c0b.js",
+    "static/js/2.6729846c.chunk.js",
     "static/css/main.1a183b24.chunk.css",
-    "static/js/main.48a10813.chunk.js"
+    "static/js/main.e724b585.chunk.js"
   ]
 }
