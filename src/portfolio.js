@@ -54,7 +54,7 @@ const skillsSection = {
       "⚡ Cloud Native solution design and implementation with Azure / AWS"
     ),
     emoji(
-      "⚡ CI/CD Pipeline creation using Azure DevOps, Jenkins or any other CI tool"
+      "⚡ CI/CD Pipeline creation using Gitlab, Azure DevOps, Jenkins or any other CI tool"
     ),
     emoji(
       "⚡ Bot development integrated with various platforms (Discord, Telegram, etc)"
