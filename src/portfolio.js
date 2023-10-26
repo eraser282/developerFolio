@@ -16,7 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications using C# / .NET / React / Xamarin and various other libraries and frameworks."
   ),
-  resumeLink: "https://resume.io/r/UilEQoSh5",
+  resumeLink: "https://resume.io/r/lQSE0lX42",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
